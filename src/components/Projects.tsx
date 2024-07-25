@@ -8,9 +8,10 @@ export const Projects = () => {
             <div className="bg-black dark:bg-black">
                 <div className="container mx-auto py-10">
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                        <Card title="Decentralized Social" description="This final degree project analyzes, designs, and implements a scalable solution for decentralizing social networks using blockchain technology." image="/dsocial.png" link="https://github.com/Juan-Esc/decentralized-social" />
                         <Card title="Spotify Playlist Mixer" description="Mix your collaborative playlists so that one song per friend is played everytime" image="/together.png" link="https://github.com/Juan-Esc/spotify-playlist-mixer" />
+                        <Card title="Padel Club Manager" description="A class reservation webapp for padel clubs" image="/padelclub.png" />
                         <Card title="Pick'Em" description="Website to predict match results, share them and compete in the ranking" image="/pickem.png" />
-                        <Card title="Padel Club" description="A class reservation webapp for padel clubs" image="/padelclub.png" />
                         <Card title="Game Server Panel" description="A website for creating and managing game servers. Game servers run on isolated Docker instances." image="/serverpanel.png" />
                     </div>
                 </div>

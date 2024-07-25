@@ -6,7 +6,7 @@ export const About = () => {
       <div>
         <p className="text-5xl font-bold text-white text-center sm:text-left mb-4 sm:mb-0">Juan Escalonilla</p>
         <p className="mt-1 text-3xl text-gray-300">
-        Software Engineering student at UPM
+        Software Engineer
         </p>
 
         <p className="mt-4 text-gray-400">
